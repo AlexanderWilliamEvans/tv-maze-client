@@ -1,0 +1,17 @@
+.horizontal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    & li {
+        float: left;
+      }
+}
+.star-icon {
+    color: yellow;
+    font-size: 12px;
+    &-large {
+        color: yellow;
+        font-size: 24px;
+    }
+}

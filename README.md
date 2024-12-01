@@ -1,9 +1,23 @@
+# Tv Maze client app 
+
+## About this project
+This is a Frontend coding assignment for Nexer Group.
+The project is estimated to take around 5 hours to finish. 
+
+It's also the first time im using NextJS. 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+The project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Getting Started
 
-First, run the development server:
-
+1) Run:
+```bash
+ npm install 
+ ``` 
+ in the project folder to install all dependencies.
+2) To start the project in the development server run any of the command depending on what package manager you've using:
 ```bash
 npm run dev
 # or
@@ -13,12 +27,8 @@ pnpm dev
 # or
 bun dev
 ```
+4) Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
 
@@ -29,8 +39,18 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Comments
+### Suggestions for improvements if i had more time:
+* Separate the api from the components and add swr or tanstack query for the client components, 
+* Check how to increase the performance of the api-calls and loading of components.
+* Implement better exception handler.
+* In the List shows, add pagination <b>OR</b> an infinity scroll, since there´s a lot of shows which adds scrolling and makes the page slower then it should for the user.
+* Add useful filters (genres etc) for list Shows.
+* Sort asc and desc on shows name.
+* Display more properties for the the casts of a show.
+* Install tailwind or bootstrap as css-library and then customize some of the stylings, why invent the wheel twice?
+* Write unit test with jest.
+* Install cypress or playwright for testing.
+* Add global theming (Add global sass-variables in the next.config file etc). 
+* Maybe add storybook to isolate and try reusable UI-components.
+* Seems like the api-call for cast-members for a show returns an actor more then once if they've more then one role in the show, so maybe build a filter-merge function to display one card with all the roles in the castCard-item. 

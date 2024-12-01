@@ -1,0 +1,24 @@
+.go-back-link-btn {
+    background: transparent;
+    width: 100%;
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    color: #fff;
+    background-color: black;
+    font-size: 18px;
+    & span {
+        margin-left: 24px;
+        vertical-align: middle;
+        text-transform: uppercase;
+    }
+    & .go-back-icon {
+        font-size: 24px;
+        vertical-align: middle;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: #424141;
+    }    
+}

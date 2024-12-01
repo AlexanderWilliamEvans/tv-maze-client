@@ -1,0 +1,22 @@
+.cast-card-container {
+    width: fit-content;
+    padding: 8px;
+}
+
+.cast-card-img-wrapper {
+    float: left;
+}
+.cast-card-text {
+    color: #fff;
+    float: right;
+    width: auto;
+    margin-left: 16px;
+    & h5 {
+        font-size: 18px;
+    }
+    & span {
+        margin-top: 12px;
+        font-size: 14px;
+        font-weight: 200;
+    }
+}
