@@ -77,3 +77,10 @@ export interface ISchedule {
     imageUrl: string,
     rating: number,
 }
+
+export interface IShowCardProps {
+  id: string,
+  imageUrl: string,
+  name: string,
+  rating: number,
+}
