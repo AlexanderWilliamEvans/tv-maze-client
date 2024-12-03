@@ -1,10 +1,6 @@
 # Tv Maze client app 
 
 ## About this project
-This is a Frontend coding assignment for Nexer Group.
-The project is estimated to take around 5 hours to finish. 
-
-It's also the first time im using NextJS. 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
